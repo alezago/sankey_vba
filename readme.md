@@ -18,7 +18,7 @@
 
 ![Product Name Screen Shot][product-anim]
 
-This library was created to provide a simple library to add Sankey Charts to Excel. The charts created with the library are interactive, and the appearance can be easily configured (shapes, colors&transparency, margins&dimensions).
+This library was created to provide a simple to use functionality to add Sankey Charts to Excel. The charts created with the library are interactive, and the appearance can be easily configured (shapes, colors&transparency, margins&dimensions).
 
 When clicking on an element in the chart, the connected elements are highligted while all unrelated ones are hidden.
 To reset the view, click on the background.
