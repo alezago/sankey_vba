@@ -35,7 +35,7 @@ the signature of the function is the following:
 ```vbnet
 Public Function sankeyDraw(data As Range, targetSheet As Worksheet, chartName As String, chartTop As Double, chartLeft As Double, chartWidth As Double, chartHeight As Double, skc As sankeyConfig)
 ```
-The parameters to this function are:
+The arguments to this function are:
 <ls>
 <li><b>data:</b> a Range object set to the table containing the data to be used in the chart. This range must not contain the table headers if present, and the right-most column should contain the values for each row.</li>
 <li><b>targetSheet:</b> a Worksheet object, referencing the worksheet where the chart is to be placed.</li>
