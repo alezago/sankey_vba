@@ -27,10 +27,10 @@ To reset the view, click on the background.
 
 ### Installation and Usage
 
-Import the sankeyVB.bas module into the VBA Project.
+Import the `sankeyVB.bas` module into the VBA Project.
 
 The main public function provided by the module is `sankeyDraw`.
-the signature of the function is the following:
+The signature of the function is the following:
 
 ```vbnet
 Public Function sankeyDraw(data As Range, targetSheet As Worksheet, chartName As String, chartTop As Double, chartLeft As Double, chartWidth As Double, chartHeight As Double, skc As sankeyConfig)
@@ -39,7 +39,7 @@ The arguments to this function are:
 <ls>
 <li><b>data:</b> a Range object set to the table containing the data to be used in the chart. This range must not contain the table headers if present, and the right-most column should contain the values for each row.</li>
 <li><b>targetSheet:</b> a Worksheet object, referencing the worksheet where the chart is to be placed.</li>
-<li><b>chartName:</b> a String containing the name to be used for the chart. This name will uniquely identify the chart in case multiple charts are placed in the same worksheet/workbook.</li>
+<li><b>chartName:</b> a String value containing the name to be used for the chart. This name will uniquely identify the chart in case multiple charts are placed in the same worksheet/workbook.</li>
 <li><b>chartTop:</b> a Double value, identifying the vertical distance of the chart from the top edge of the worksheet.</li>
 <li><b>chartLeft:</b> a Double value, identifying the horizontal distance of the chart from the left edge of the worksheet.</li>
 <li><b>chartWidth:</b> a Double value, identifying the total width of the chart.</li>
