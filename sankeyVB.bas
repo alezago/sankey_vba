@@ -64,7 +64,7 @@ Private Const BG_BORDER_COLOR_B As Integer = 10
 Private Const THRESHOLD_DARK_BG As Double = 100    'if the brightness is under this value, the background is considered "dark" (label text becomes white)
 
 'possible color modes
-Private Enum colorMode
+Public Enum colorMode
     sourceColor = 1
     targetColor = 2
     gradientColor = 3
